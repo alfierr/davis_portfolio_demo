@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/blue-snow.png')
+}
+
+nav {
+    height: 60px; 
+    position: sticky; 
+    top: 0px;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+.link {
+    float: right; margin: 2.5px;
+    line-height: 60px;
+}
+#name {
+    color: #ffffff; font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#nameTeal {
+    float: left;
+    background-color: #4aaaa5;
+    height: 60px;
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    top: 0px;
+    overflow: hidden;
+}
+#headername {
+    color: #4aaaa5; font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+article{
+    
+    padding: 20px;
+    border: 2px solid #cccccc;
+    width:960px;
+    max-width: 80%;
+    background-color: #ffffff;
+    margin: 100px auto 100px auto;
+}
+img{float: left;}
+#articlecontent {
+    margin-top: 20px;
+}
+footer{
+    background-color:#666666;
+    color: #ffffff;
+    text-align: center;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    margin: 0px auto;
+    width: 100%;
+    line-height: 80px;
+    border-top: 9px solid #4aaaa5;
+}
+button{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
